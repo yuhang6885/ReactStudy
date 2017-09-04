@@ -1,13 +1,5 @@
+@import url(../css/reset.css);
 body {
   background: #fff; }
-
-p {
-  font-size: 0.22rem; }
-
-.di {
-  width: 3rem;
-  height: 1rem;
-  border: 1px solid red;
-  margin: 0 auto; }
 
 /*# sourceMappingURL=index.css.map */

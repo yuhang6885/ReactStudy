@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />-->
+    <title></title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/react.js"></script>
+    <!--提供与Dom相关功能-->
+    <script src="js/react-dom.js"></script>
+    <!--将jsx语法转化为JavaScript语法-->
+    <script src="js/browser.min.js"></script>
+</head>
+<body>
+<p></p>
+
+<div class="di" id="example"></div>
+<script type="text/javascript">
+    /*
+     1.JSX 当中可任意使用javascript 但是要用{ 。。。}包起来
+     2.Jsx 本事也是一种表达式
+     3.可用"" 双引号来定义 jsx 字符串里的属性值 const element=<div tabIndex="0"></div>;
+     4.也可以用{}大括号来定义javascript的表达式 const element = <img src={user.avatarUrl}></img>;
+     5 jsx 同样可以使用标签嵌套
+        const element=(
+            <div>
+                <h1>Hello word</h1>
+            </div>
+        )
+     6.防止xss跨站攻击 ReactDOM在渲染前默认会 过滤所传入的值。所有内容在渲染前会被转化成字符串；
+     7.JSX代表objects  Babel转意器会把jsx转换成一个React.createElement()方法调用
+         const element = (
+             <h1 className="greeting">
+             Hello, world!
+             </h1>
+         );
+         const element = React.createElement(
+             'h1',
+             {className: 'greeting'},
+             'Hello, world!'
+         );
+
+       8.react 声明页面上的跟DOM节点；
+       9.react 元素是不可变得
+
+    */
+</script>
+
+
+</body>
+</html>
